@@ -33,7 +33,6 @@ class Action:
 
     # constructor which takes named argements
 	def __init__(self, adv, base): # constructor method, assumes as named one
-		print("constructor method called")
 		self.basacts = base
 		self.advacts = adv
 		#print("base actions are " + str(self.basacts) + "and advanced actions are " + str(self.advacts))
@@ -62,9 +61,6 @@ class Action:
 	def check_list():
 		print(Action.cls_basic_actions)
 		print(Action.cls_advanced_actions)
-
-
-
 
 
 basic_actions = ['enquiry','withdraw','deposit', 'balance check'] # 1st list
